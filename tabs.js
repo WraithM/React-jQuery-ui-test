@@ -26,7 +26,7 @@ var Draggable = React.createClass({
     componentDidMount: function() {
         var dragId = "#" + this.props.id;
         $(function() { 
-            $(dragId).draggable(); 
+            $(dragId).draggable();
             var dragStyle = $(dragId).css({ 
                 width: "100px", 
                 height: "25px", 
